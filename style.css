@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+        'sidebar header'
+        'sidebar content';
+    gap: 5px;
+}
+
+.sidebar {
+    background: rgb(255, 92, 92);
+    grid-area: sidebar;
+
+}
+
+.header {
+    background: rgb(224, 103, 224);
+    grid-area: header;
+}
+
+.main-content {
+    background: rgb(223, 223, 58);
+    grid-area: content;
+
+}

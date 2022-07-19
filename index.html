@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
     <title>Admin Dashboard</title>
 </head>
 
@@ -13,21 +14,52 @@
     <div class="container">
 
         <div class="sidebar">
-            <div class="logo">Logo </div>
-            <ul>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
-                <li>Setting</li>
-                <li>Support</li>
-                <li>Privacy</li>
+            <div class="sidebar-title">Dashboard </div>
+
+            <ul class="nav">
+
+                <li class="nav-item"><a href="#" class="nav-link"></a>Home</li>
+                <li class="nav-item"><a href="#" class="nav-link"></a>Profile</li>
+                <li class="nav-item"><a href="#" class="nav-link"></a>Messages</li>
+                <li class="nav-item"><a href="#" class="nav-link"></a>History</li>
+                <li class="nav-item"><a href="#" class="nav-link"></a>Tasks</li>
+                <li class="nav-item"><a href="#" class="nav-link"></a>Communities</li>
+            </ul>
+            
+            <ul class="nav">
+                <li class="nav-item"><a href="#" class="nav-link"></a>Setting</li>
+                <li class="nav-item"><a href="#" class="nav-link"></a>Support</li>
+                <li class="nav-item"><a href="#" class="nav-link"></a>Privacy</li>
             </ul>
         </div>
 
-        <div class="header">?</div>
+        <header class="header">header
+            <div class="top">
+                <div class="search">
+                    <label for="search">search</label>
+                    <input type="search" for="search" id="search">
+                </div>
+                <div class="account">
+                    <button>Notifications</button>
+                    <div class="picture"></div>
+                    <p class="name">Emirhan Erol</p>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="profile">
+                    <div class="picture"></div>
+                    <div class="profile-name">
+                        <p class="greeting">Hi there,</p>
+                        <p class="name">Emirhan Erol <span class="username">(@emrhnrl)</span></p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="btn">New</button>
+                    <button class="btn">Upload</button>
+                    <button class="btn">Share</button>
+                </div>
+            </div>
+        </header>
 
         <div class="main-content">
             <div class="projects">Your Projects
